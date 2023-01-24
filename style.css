@@ -1,0 +1,100 @@
+.sects{
+  display: grid;
+  grid-template-columns: 39% 1% 60%;
+}
+
+img {
+    border-radius: 50%;
+    height: 170px;
+    position: absolute;  
+    width: 200px;
+    top: 10px;
+    left: 30px;
+    margin-top: -40px;
+
+  }
+
+  .sect-left{
+    background-color: #2874a6;
+    height: 20px;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: -30px; 
+    top: 0;
+    left: 0;
+    margin-top: 60px;
+  }
+  .sect-left .details{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+    
+  }
+  .sect-left .details ul li{
+    text-align: left;
+    list-style-type: none;
+    padding: 10px ;
+  }
+  .sect-left .education{
+   text-align: left;
+   margin-top: 50px;
+  }
+  .sect-left .achieve{
+    text-align: left;
+    margin-top: 50px;
+   }
+   .sect-left .skills{
+    margin-top: 50px;
+   }
+   .sect-left .ref{
+    margin-top: 50px;
+   }
+
+  .sect-mid{
+    border-style: solid;
+    border-color: #2874a6;
+    background-color: #2874a6;
+    height: auto;
+  }
+  /* .sect-right{
+      margin-left: 50px;  
+  } */
+
+  .sect-right .mh1{
+   color: #2874a6;  
+   padding-right: 20px;   
+  }
+
+  .sect-right .mh2{
+    background-color: #2874a6;
+    height: 40px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: -30px; 
+    font-size: 40px;
+    margin-top: -20px; 
+      
+   }
+
+   .sect-right .mh3{
+    color: #2874a6;     
+   }
+   .sect-right .summary{
+    text-align: center;
+    margin-top: 50px;
+   }
+   .sect-right .experience{
+    text-align: left;
+    margin-top: 50px;
+   }
+
+   hr.ruler {
+    
+    border: 5px solid #2874a6;
+    border-radius: 1px;
+    width: 65%;
+  }
+
+  h1,h3{
+    color: #2874a6; 
+  }
